@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+    <style>
+        a { display: block; text-decoration: none; padding: 10px 20px 20px 60px;font-size:10pt; text-align:left; font-family: Verdana, Arial, sans;  color:#969696;}
+    
+         a:hover {background: rgb(195, 32, 86); color: white;display: block; text-decoration: none; padding: 10px 20px 20px 60px;font-size:10pt; text-align:left; font-family: Verdana, Arial, sans;}
+         .img1{ display: inline-block; float:left; width:25px;height:25px;  margin-left: 20px;}
+   
+
+        @media (min-width:1000px)
+            {
+              .hr3{margin-top:40px; }
+              .h1-3{font-size: 20px; text-align: left;padding-top: 50px;padding-left: 15px; font-family: Verdana, Arial, sans;}
+              .iframe3{width: 100vw; height: 100vh;  margin-left: 180px; border: none; }
+              .Image{position:fixed;top: 0px;left: 0px;right: 0px;bottom: 0px; z-index: -1;}
+              .positions {position:fixed;top: 0px;left: 0px;right: 0px;bottom: 0px; background-color: #ffffff;height: 100vh; width: 170px;box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);}
+            }
+        @media (min-width:800px) and (max-width:1000px)
+            {
+              .Image{position:fixed;top: 0px;left: 0px;right: 0px;bottom: 0px; z-index: -1;}
+              .positions {position:fixed;top: 0px;left: 0px;right: 0px;bottom: 0px; background-color: #ffffff;height: 100vh; width: 170px;box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);}
+              .hr3{margin-top:40px; }
+              .h1-3{font-size: 20px; text-align: left;padding-top: 50px;padding-left: 15px; font-family: Verdana, Arial, sans;}
+              .iframe3{width: 100vw; height: 100vh;  margin-left: 180px; border: none; }
+             }
+
+            @media (min-width:650px) and (max-width:800px)
+            {
+              .iframe3{ width: 100vw; height: 100vh;  margin-left: 50px; border: none; }
+             .positions {display:none;position:fixed;top: 10px;left: 20px; background-color: rgb(173, 112, 112);height: 50px; width: 80px;}
+             .Image{position:fixed;top: 10px;left: 10px;right: 0px;bottom: 0px; z-index: -1;}
+            }
+
+            @media (min-width:500px) and (max-width:650px)
+            {
+              .iframe3{ width: 100vw; height: 100vh;  margin-left: 50px; border: none; }
+             .positions {display:none;position:fixed;top: 10px;left: 20px; background-color: rgb(173, 112, 112);height: 50px; width: 80px;}
+             .Image{position:fixed;top: 10px;left: 10px;right: 0px;bottom: 0px; z-index: -1;}
+            }
+            @media  (max-width:500px)
+            {
+              .iframe3{ width: 100vw; height: 100vh;  margin-left: 50px; border: none; }
+             .positions {display:none;position:fixed;top: 10px;left: 20px; background-color: rgb(173, 112, 112);height: 50px; width: 80px;}
+             .Image{position:fixed;top: 10px;left: 10px;right: 0px;bottom: 0px; z-index: -1;}
+            }
+    </style>
+</head>
+<body style="background-color: rgb(234, 234, 234); margin:0px; padding-top: 0px;">
+
+
+  <img class="Image" src="icons_exam_task1/menu.png" title="menu" alt="menu">
+    <div class="positions">
+        <h1 class="h1-3">Company</h1>
+        <hr class="hr3">
+        <img class="img1" src="icons_exam_task1/dashboard_gray.svg" title="dashboard_gray" alt="dashboard_gray"><a href="Exam.html" target="Go">Dashboard</a>
+        <img class="img1" src="icons_exam_task1/account_gray.svg" title="account_gray" alt="account_gray"><a href="Exam2.html" target="Go">User Profile</a>
+        <img class="img1" src="icons_exam_task1/map_gray.svg" title="map_gray" alt="map_gray"><a href="#">Maps</a>
+        <img class="img1" src="icons_exam_task1/notify_gray.svg" title="notify_gray" alt="notify_gray"><a href="#">Notifications</a>
+        <img class="img1" src="icons_exam_task1/support_gray.svg" title="support_gray" alt="support_gray"> <a href="#">Support</a>
+     </div>
+
+   
+        <iframe class="iframe3" src="Exam.html" title="CATS GALLERY" name="Go"></iframe>
+ 
+        
+
+  
+
+
+</body>
+</html>
